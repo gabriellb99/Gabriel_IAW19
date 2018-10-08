@@ -46,7 +46,7 @@ public class Explicacion {
 		//Pedir dos numeros e indicar cual es el mayor o si son iguales
 		if (num1 > num2) 
 			System.out.println(num1 + " es mayor que " + num2);
-		 else if (num2 < num1) 
+		 else if (num2 > num1) 
 			System.out.println(num2 + " es mayor que " + num1);
 		 else 
 			System.out.println("Son iguales");
